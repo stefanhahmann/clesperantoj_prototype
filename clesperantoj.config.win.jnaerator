@@ -9,3 +9,4 @@
 -libFile native\lib\CLIc.dll
 -runtime BridJ
 -mode Directory
+native\includes\core\clic.hpp
