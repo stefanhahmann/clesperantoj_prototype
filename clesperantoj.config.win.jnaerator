@@ -1,0 +1,11 @@
+
+-library CLIc
+#!-beautifyNames
+-f
+-o src\main\java\
+-rootPackage src\main\java\
+-package net.clesperanto.clicwrapper
+-arch win64 
+-libFile native\lib\CLIc.dll
+-runtime BridJ
+-mode Directory
