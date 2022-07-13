@@ -47,8 +47,8 @@ Then build and install using ```CLIc_prototype/build``` as the folder to place t
 
 If using the cmake windows GUI and visual studio GUI 
 
-1.  Project Build files are specified by changing the 'Where to build the binaries' option
-2.  The installation folder is specified by the CMAKE_INSTALL_PREFIC option
+1.  Project Build files are specified by changing the 'Where to build the binaries' option on the CMake GUI. 
+2.  The installation folder is specified by the CMAKE_INSTALL_PREFIX option in the options table. 
 
 If using cmake from command line
 
