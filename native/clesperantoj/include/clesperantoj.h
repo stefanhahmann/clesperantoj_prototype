@@ -39,9 +39,6 @@ public:
     template<typename T>
     void pull(T * out, ObjectJ obj);
 
-    // non templated version of gaussian blur
-    void gaussianBlur2d(float*in, float*out, int nr, int nc, float sx, float sy);
-    
     void gaussianBlur2d(ObjectJ in, ObjectJ out, float sx, float sy);
 
     // templated version
