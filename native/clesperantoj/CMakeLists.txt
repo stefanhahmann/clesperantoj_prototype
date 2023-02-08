@@ -19,7 +19,7 @@ option(BUILD_BENCHMARK OFF)
 FetchContent_Declare(
   clic_lib
   GIT_REPOSITORY https://github.com/clEsperanto/CLIc_prototype.git
-  GIT_TAG master
+  GIT_TAG c++11-compatible-v1
 )
 FetchContent_MakeAvailable(clic_lib)
 
