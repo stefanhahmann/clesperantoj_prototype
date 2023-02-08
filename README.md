@@ -18,6 +18,10 @@ Make sure the path to the MSVC compiler is in your PATH, e.g.:
 ```bash
 setx PATH "%PATH%;C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\bin\Hostx64\x64"
 ```
+or
+```bash
+setx PATH "%PATH%;C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.34.31933\bin\Hostx64\x64"
+```
 
 **For linux**, you can use the gcc compiler. It can be installed using the package manager of your distribution. For example, on Ubuntu, you can install it using the following command:
 ```bash
@@ -54,7 +58,7 @@ Download and install a Java-Development-Kit (JDK), preferably version 11, e.g. f
 
 e.g. **for windows**:
 ```bash
-setx JAVA_HOME C:\Users\rober\.jdks\azul-11.0.14.1\
+setx JAVA_HOME C:\Users\rober\.jdks\zulu11.62.17-ca-jdk11.0.18-win_x64\
 echo %JAVA_HOME%
 ```
 
@@ -71,7 +75,7 @@ Download [apache-maven](https://maven.apache.org/download.cgi), unzip it and mak
 
 e.g. **for windows**:
 ```bash
-setx PATH "%PATH%;C:\programs\apache-maven-3.8.4-bin\apache-maven-3.8.4\bin"
+setx PATH "%PATH%;C:\programs\apache-maven-3.9.0\bin"
 echo %PATH%
 ```
 
