@@ -13,7 +13,12 @@
  *
  * Note we declare ClesperantoJ as a friend class so that ClesperantoJ can access the Object
  */
+
+#ifdef _WIN64
+__declspec(dllexport) class ObjectJ
+#else
 class ObjectJ
+#endif
 {
     friend class ClesperantoJInternal;
 
@@ -26,7 +31,11 @@ public:
     int getDepth();
 };
 
+#ifdef _WIN64
+__declspec(dllexport) class ClesperantoJInternal
+#else
 class ClesperantoJInternal
+#endif
 {
 
 private:
